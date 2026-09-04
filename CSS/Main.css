@@ -1,0 +1,377 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Feedback-Section p,
+.Hot-Deals p,
+.video-section p,
+.flex-column p,
+.AboutUS-paragraph p {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 1.2rem;
+}
+/*Main Page*/
+
+.dropdown-menu a {
+  color: white;
+}
+#Latest-products,
+#Hot-Deals {
+  scroll-margin-top: 60px;
+}
+.navbar .nav-item a:hover,
+.navbar .btn-group button:hover {
+  background-color: rgb(184, 20, 2) !important;
+  color: white !important;
+  border-radius: 8% / 50%;
+  border-style: solid;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  vertical-align: middle;
+  align-items: center;
+  transition: 0.7s;
+}
+.dropdown-menu a:hover {
+  padding-left: 2em;
+  background-color: rgb(184, 20, 2) !important;
+  color: white;
+  transition: 0.7s;
+  text-transform: uppercase;
+}
+.nav-item:hover {
+  display: flex;
+  justify-content: center;
+}
+.navbar-brand {
+  padding-left: 3em;
+}
+.carousel-item img {
+  filter: brightness(40%);
+  width: 100%;
+  height: 100%;
+}
+.carousel-indicators .active {
+  background-color: #dc3545 !important;
+  opacity: 1;
+}
+footer .nav-link:hover {
+  color: #dc3545 !important;
+}
+.icon {
+  font-size: 100px;
+}
+.list-unstyled .Facebook i:hover {
+  color: rgb(0, 106, 255);
+  transition: 0.3s;
+}
+.list-unstyled .Twitter i:hover {
+  color: rgb(0, 179, 255);
+  transition: 0.3s;
+}
+.list-unstyled .Whatapp i:hover {
+  color: green;
+  transition: 0.3s;
+}
+.list-unstyled .Youtube i:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.Home-cards .mb-3 {
+  border-radius: 0%;
+  border-color: transparent;
+}
+.Home-cards .mb-3 img {
+  flex-basis: 20%;
+}
+.Home-cards .container .d-flex i:hover,
+.Items-cards .container .d-flex i:hover {
+  cursor: pointer;
+  color: rgb(231, 76, 128);
+  transition: 0.2s;
+}
+.deal-card {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.deal-card .deal-banner {
+  position: absolute;
+  height: 75%;
+  top: 50%;
+  left: 50%;
+  width: 80% !important;
+  margin: 0 !important;
+  padding: 18px 12px;
+  background-color: #dc3545;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.4;
+  z-index: 3;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0);
+  transition:
+    transform 0.4s ease-in-out,
+    opacity 0.4s ease-in-out;
+}
+.deal-card:hover .deal-banner {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/*About Us Page*/
+.AboutUs-image {
+  background-image: url(https://dokanfashion01.vercel.app/images/about-us-page-heading.jpg);
+  background-size: cover;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3em;
+}
+.AboutUs-image h1,
+.AboutUs-image p {
+  color: white;
+}
+.AboutUs-image h1 {
+  font-size: 3em;
+}
+
+.AboutUS-paragraph {
+  flex-basis: 35%;
+}
+.AboutUs-image2 {
+  flex-basis: 35%;
+  margin: auto;
+}
+.AboutUS-paragraph h1 {
+  text-align: center;
+}
+.AboutUS-paragraph p {
+  text-align: left;
+  border-bottom: 0.2em;
+  border-top: 0em;
+  border-left: 0em;
+  border-right: 0em;
+  border-color: rgb(88, 88, 86);
+  padding-bottom: 2em;
+  border-style: solid;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icons i {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  width: 2em;
+  height: 1.3em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+.social-icons i:hover {
+  color: black;
+  background-color: white;
+  transition: 0.7s;
+}
+.section3 .mb-3 {
+  border-color: transparent;
+}
+
+.Feedback-Section .flex-column {
+  text-transform: capitalize;
+}
+.col-12 .mb-3 input,
+.col-12 .mb-3 textarea {
+  border-radius: 0% !important;
+}
+.section4 .card img,
+.map {
+  border-radius: 0% !important;
+  border-top: 3px solid #5a6268;
+  border-left: 3px solid #5a6268;
+  border-bottom: 2px solid #aeadad;
+  border-right: 2px solid #aeadad;
+}
+.section4 .card {
+  border-radius: 0% !important;
+  border-bottom: 3px solid #5a6268;
+  border-right: 3px solid #5a6268;
+  border-top: 2px solid #aeadad;
+  border-left: 2px solid #aeadad;
+}
+/*Sign in page*/
+.sign-in p:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  font-weight: bold;
+}
+.sign-in {
+  text-transform: capitalize;
+  border-radius: 1em;
+  width: 35% !important;
+}
+/*Women's collection page*/
+.Product-background {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://dokanfashion01.vercel.app/images/products-background.jpg");
+  background-size: cover;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3em;
+}
+/*product cards*/
+.Items-cards .card {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+.Items-cards .card:hover {
+  background-color: #3b3d3e;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Registration Form Specific Styling */
+
+.registration-card {
+  background-color: #f2f2f2;
+  border-radius: 35px;
+  width: 100%;
+  max-width: 620px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.registration-title {
+  color: #c95757;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.form-label-custom {
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  border-top: 2px solid #8e9091;
+  border-left: 2px solid #8e9091;
+  border-bottom: 2px solid #cfcfcf;
+  border-right: 2px solid #cfcfcf;
+  border-radius: 0px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.gender-label {
+  font-weight: 500;
+  color: #212529;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.gender-label input[type="radio"] {
+  accent-color: #0d6efd;
+  width: 16px;
+  height: 16px;
+}
+
+.terms-text {
+  font-size: 0.85rem;
+  color: #212529;
+  line-height: 1.35;
+}
+.btn-custom-danger {
+  background-color: #c95757;
+  color: #ffffff;
+  border: 2px solid #b84343;
+  border-top-color: #df7b7b;
+  border-left-color: #df7b7b;
+  padding: 6px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    opacity 0.2s ease,
+    transform 0.1s ease;
+}
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.nav-item a {
+  color: white;
+}
+
+@media (min-width: 200px) and (max-width: 725px) {
+  .Feedback-Section .col-12 {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 0.4em;
+  }
+
+  .Feedback-Section .d-flex a {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .Aboutus2 {
+    width: 60% !important;
+  }
+  .AboutUs-image2 img {
+    width: 60% !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+/*@media (max-width: 990px) {
+  .AboutUs2 {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+  }
+}*/
