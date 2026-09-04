@@ -345,7 +345,7 @@ footer .nav-link:hover {
   color: white;
 }
 
-@media (min-width: 200px) and (max-width: 725px) {
+@media (min-width: 200px) and (max-width: 770px) {
   .Feedback-Section .col-12 {
     text-align: center;
     flex-wrap: wrap;
@@ -365,5 +365,8 @@ footer .nav-link:hover {
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+  .Contact-us-top {
+    flex-direction: column;
   }
 }
