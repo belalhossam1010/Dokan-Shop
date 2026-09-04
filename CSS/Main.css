@@ -229,7 +229,7 @@ footer .nav-link:hover {
   border-left: 2px solid #aeadad;
 }
 /*Sign in page*/
-.sign-in p:hover {
+.sign-in a:hover {
   text-decoration: underline;
   text-decoration-color: blue;
   font-weight: bold;

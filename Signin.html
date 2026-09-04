@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dokan Shop-Sign in</title>
+    <link rel="icon" type="image/x-icon" href="user-secret-solid-full.svg" />
     <link rel="StyleSheet" href="CSS/all.css" />
     <link rel="StyleSheet" href="CSS/bootstrap.css" />
     <link rel="StyleSheet" href="CSS/Main.css" />
@@ -98,65 +99,72 @@
         </div>
       </div>
     </nav>
-    <div
-      class="mt-auto mb-auto align-middle d-flex justify-content-center flex-column"
-    >
-      <section class="sign-in bg-secondary-subtle m-auto p-4 rounded">
-        <h2 class="text-center">Sign in</h2>
-        <div class="d-flex justify-content-center flex-wrap mb-3">
-          <a href="Signin.html" class="btn btn-danger m-2"
-            >Sign In with Google+</a
+    <div class="d-flex justify-content-center align-items-center py-5">
+      <div
+        class="bg-light p-4 p-md-5 rounded-5 shadow-sm"
+        style="max-width: 420px; width: 100%"
+      >
+        <h2 class="text-center fw-normal mb-4">Sign In</h2>
+
+        <div class="d-flex justify-content-center gap-2 mb-3">
+          <a
+            href="#"
+            class="btn btn-primary btn-sm rounded-1 shadow-sm px-3 fw-bold"
           >
-          <a href="Signin.html" class="btn btn-primary m-2"
-            >Sign in with Facebook</a
+            Sign In With Faceebook
+          </a>
+          <a
+            href="#"
+            class="btn btn-danger btn-sm rounded-1 shadow-sm px-3 fw-bold"
           >
+            Sign In With Google+
+          </a>
         </div>
-        <h2 class="text-center">Or</h2>
-        <div class="mb-3 w-50 mx-auto">
+
+        <div class="text-center my-3 text-secondary">Or</div>
+
+        <div class="mb-3">
           <input
             type="text"
-            class="form-control"
-            id="usernameInput"
-            placeholder="Username"
+            class="form-control rounded-0 rounded-top border-secondary-subtle"
+            placeholder="User Name"
           />
-        </div>
-        <div class="mb-3 w-50 mx-auto">
           <input
             type="password"
-            class="form-control"
-            id="passwordInput"
+            class="form-control rounded-0 rounded-bottom border-top-0 border-secondary-subtle"
             placeholder="Password"
           />
         </div>
-        <div class="w-50 mx-auto mb-3">
-          <div class="form-check d-flex align-items-center gap-2">
-            <input
-              type="checkbox"
-              class="form-check-input mt-0"
-              id="rememberMeCheck"
-            />
-            <label class="form-check-label" for="rememberMeCheck">
-              Remember Me
-            </label>
-          </div>
+
+        <div class="form-check mb-4">
+          <input class="form-check-input" type="checkbox" id="rememberMe" />
+          <label class="form-check-label text-secondary" for="rememberMe">
+            Remember Me
+          </label>
         </div>
-        <a
-          href="Signin.html"
-          class="btn btn-success mb-3 w-50 mx-auto d-block text-center"
+
+        <button
+          type="button"
+          class="btn btn-success rounded-pill w-100 py-2 shadow-sm mb-3"
         >
-          Sign in
-        </a>
-        <div class="text-center">
-          <p class="mb-3">
-            <a href="#" class="text-primary text-decoration-none"
-              >Forget Password?</a
-            >
-          </p>
-          <a href="SignUp.html" class="btn btn-primary w-50 mx-auto d-block">
-            Sign up new account
+          Sign In
+        </button>
+
+        <div class="mb-2 sign-in">
+          <a href="" class="text-info text-decoration-none small">
+            Forget Password?
           </a>
         </div>
-      </section>
+
+        <hr class="my-4 text-secondary opacity-25" />
+
+        <a
+          href="SignUp.html"
+          class="btn btn-primary rounded-pill w-100 py-2 shadow-sm"
+        >
+          Sign Up New Account
+        </a>
+      </div>
     </div>
 
     <!--footer-->
